@@ -220,7 +220,7 @@
     </div>
     <div class="walk">
       <div class="walk__video" id="walkVideo">
-        <img src="assets/img/iso-gf-1.jpg" alt="3D walkthrough preview" />
+        <img src="assets/img/iso-gf-1.jpg" alt="3D walkthrough preview" width="1400" height="991" loading="lazy" />
         <button class="walk__play" id="walkPlay" aria-label="Play walkthrough">&#9658;</button>
         <span class="walk__hint">Project walkthrough video</span>
       </div>
@@ -248,28 +248,11 @@
         <button class="fp__tab" data-tab="terrace">Terrace</button>
       </div>
       <div class="fp__panels">
-        <figure class="fp__panel is-active" data-panel="gf"><img src="assets/img/floor-gf.jpg" alt="Ground floor plan — 772 sq.ft" /><figcaption>Ground Floor &mdash; 772 sq.ft (Living, Dining, Kitchen, Master Bedroom, Puja)</figcaption></figure>
-        <figure class="fp__panel" data-panel="ff"><img src="assets/img/floor-ff.jpg" alt="First floor plan — 858 sq.ft" /><figcaption>First Floor &mdash; 858 sq.ft (2 Bedrooms, TV Lounge, Balcony, Walk-in Wardrobes)</figcaption></figure>
-        <figure class="fp__panel" data-panel="terrace"><img src="assets/img/floor-terrace.jpg" alt="Terrace plan — 160 sq.ft" /><figcaption>Terrace &mdash; 160 sq.ft (Terrace Lobby &amp; Open Garden Deck)</figcaption></figure>
+        <figure class="fp__panel is-active" data-panel="gf"><img src="assets/img/floor-gf.jpg" alt="Ground floor plan — 772 sq.ft" width="1600" height="1132" loading="lazy" /><figcaption>Ground Floor &mdash; 772 sq.ft (Living, Dining, Kitchen, Master Bedroom, Puja)</figcaption></figure>
+        <figure class="fp__panel" data-panel="ff"><img src="assets/img/floor-ff.jpg" alt="First floor plan — 858 sq.ft" width="1600" height="1132" loading="lazy" /><figcaption>First Floor &mdash; 858 sq.ft (2 Bedrooms, TV Lounge, Balcony, Walk-in Wardrobes)</figcaption></figure>
+        <figure class="fp__panel" data-panel="terrace"><img src="assets/img/floor-terrace.jpg" alt="Terrace plan — 160 sq.ft" width="1600" height="1132" loading="lazy" /><figcaption>Terrace &mdash; 160 sq.ft (Terrace Lobby &amp; Open Garden Deck)</figcaption></figure>
       </div>
       <a href="assets/img/Floor-Plan.pdf" target="_blank" rel="noopener" class="btn btn--dark">Download Floor Plan (PDF)</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ FLYER ============ -->
-<section class="section flyer-sec" id="flyer">
-  <div class="wrap">
-    <div class="flyer">
-      <div class="flyer__text">
-        <span class="kicker">Project Flyer</span>
-        <h2>Take The King's Court with you</h2>
-        <p>Download the project flyer with elevations, configurations, highlights and contact details &mdash; perfect to share with family before your site visit.</p>
-        <a href="assets/img/Flyer-The-Kings-Court.pdf" target="_blank" rel="noopener" class="btn btn--gold">Download Flyer (PDF)</a>
-      </div>
-      <div class="flyer__card">
-        <img src="assets/img/elevation-classic-day1.png" alt="The King's Court flyer preview" />
-      </div>
     </div>
   </div>
 </section>
@@ -313,9 +296,11 @@
           </label>
         </div>
         <!-- FormSubmit configuration -->
-        <input type="hidden" name="_subject" value="New enquiry — The King's Court website" />
+        <input type="hidden" name="_subject" value="Enquiry from TKC Website" />
         <input type="hidden" name="_template" value="table" />
-        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+        <input type="hidden" name="_captcha" value="false" />
+        <!-- Honeypot: hidden from humans; bots that auto-fill it get silently rejected -->
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
         <button type="submit" class="btn btn--gold eform__submit" id="formSubmit">Submit Enquiry</button>
         <p class="eform__status" id="formStatus" role="status"></p>
       </form>
@@ -326,41 +311,10 @@
 <!-- ============ FOOTER ============ -->
 <footer class="footer" id="contact">
   <div class="wrap footer__grid">
-    <div class="footer__col footer__col--brand">
-      <img src="assets/img/logo-amarprakash.png" alt="Amarprakash" class="footer__builder" />
-    </div>
-    <div class="footer__col">
-      <h4>Contact</h4>
-      <p><a href="tel:+914440005000">044 4000 5000</a></p>
-      <p><a href="mailto:marketing@thekings-court.net">marketing@thekings-court.net</a></p>
-    </div>
-    <div class="footer__col">
-      <h4>Site Address</h4>
-      <p>The King's Court,<br />French-Themed Villa Plots,<br />Kundrathur,<br />Chennai, Tamil Nadu,<br />India.</p>
-    </div>
-    <div class="footer__col">
-      <h4>Follow Us</h4>
-      <div class="social">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.49-3.91 3.78-3.91 1.1 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.44 2.91h-2.34V22c4.78-.76 8.43-4.92 8.43-9.94Z"/></svg>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16Zm0 1.62c-3.15 0-3.5.01-4.74.07-.96.04-1.48.2-1.83.34-.46.18-.79.39-1.13.74-.35.34-.56.67-.74 1.13-.14.35-.3.87-.34 1.83-.06 1.24-.07 1.59-.07 4.74s.01 3.5.07 4.74c.04.96.2 1.48.34 1.83.18.46.39.79.74 1.13.34.35.67.56 1.13.74.35.14.87.3 1.83.34 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.96-.04 1.48-.2 1.83-.34.46-.18.79-.39 1.13-.74.35-.34.56-.67.74-1.13.14-.35.3-.87.34-1.83.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.04-.96-.2-1.48-.34-1.83a3.04 3.04 0 0 0-.74-1.13 3.04 3.04 0 0 0-1.13-.74c-.35-.14-.87-.3-1.83-.34-1.24-.06-1.59-.07-4.74-.07Zm0 2.76a5.3 5.3 0 1 1 0 10.6 5.3 5.3 0 0 1 0-10.6Zm0 1.62a3.68 3.68 0 1 0 0 7.36 3.68 3.68 0 0 0 0-7.36Zm5.48-1.18a1.24 1.24 0 1 1-2.48 0 1.24 1.24 0 0 1 2.48 0Z"/></svg>
-        </a>
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.51A3.02 3.02 0 0 0 .5 6.2C0 8.08 0 12 0 12s0 3.92.5 5.8a3.02 3.02 0 0 0 2.12 2.14c1.88.51 9.38.51 9.38.51s7.5 0 9.38-.51a3.02 3.02 0 0 0 2.12-2.14c.5-1.88.5-5.8.5-5.8s0-3.92-.5-5.8ZM9.6 15.57V8.43L15.82 12 9.6 15.57Z"/></svg>
-        </a>
-        <a href="https://wa.me/914440005000" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.66.15-.2.3-.76.96-.93 1.16-.17.2-.34.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.66-1.6-.91-2.19-.24-.57-.48-.49-.66-.5l-.56-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.74-.71 1.99-1.4.24-.69.24-1.28.17-1.4-.07-.12-.27-.2-.57-.34ZM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.01c0-5.18 4.22-9.4 9.42-9.4a9.4 9.4 0 0 1 9.4 9.41c0 5.18-4.22 9.4-9.41 9.4Zm5.5-14.9A11 11 0 0 0 12.05.65C5.95.65 1 5.6 1 11.7c0 1.95.51 3.85 1.48 5.53L.9 23l5.9-1.55a11.04 11.04 0 0 0 5.25 1.34h.01c6.1 0 11.05-4.95 11.05-11.05 0-2.95-1.15-5.72-3.24-7.81Z"/></svg>
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
-        </a>
-      </div>
-      <div class="footer__links">
-        <a href="#" data-modal="terms">Terms &amp; Conditions</a>
-        <a href="#" data-modal="privacy">Privacy Policy</a>
-      </div>
+    <p class="footer__addr">The King's Court, French-Themed Villa Plots, Kundrathur, Chennai, Tamil Nadu, India.</p>
+    <div class="footer__links">
+      <a href="#" data-modal="terms">Terms &amp; Conditions</a>
+      <a href="#" data-modal="privacy">Privacy Policy</a>
     </div>
   </div>
   <div class="footer__bottom">
@@ -371,8 +325,10 @@
   </div>
 </footer>
 
-<!-- Floating quick-call -->
-<a href="tel:+914440005000" class="fab" aria-label="Call us">&#9742;</a>
+<!-- Floating quick-contact — WhatsApp -->
+<a href="https://wa.me/918925847360" target="_blank" rel="noopener" class="fab" aria-label="Chat with us on WhatsApp" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.66.15-.2.3-.76.96-.93 1.16-.17.2-.34.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.66-1.6-.91-2.19-.24-.57-.48-.49-.66-.5l-.56-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.74-.71 1.99-1.4.24-.69.24-1.28.17-1.4-.07-.12-.27-.2-.57-.34ZM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.01c0-5.18 4.22-9.4 9.42-9.4a9.4 9.4 0 0 1 9.4 9.41c0 5.18-4.22 9.4-9.41 9.4Zm5.5-14.9A11 11 0 0 0 12.05.65C5.95.65 1 5.6 1 11.7c0 1.95.51 3.85 1.48 5.53L.9 23l5.9-1.55a11.04 11.04 0 0 0 5.25 1.34h.01c6.1 0 11.05-4.95 11.05-11.05 0-2.95-1.15-5.72-3.24-7.81Z"/></svg>
+</a>
 
 <!-- ============ LIGHTBOX ============ -->
 <div class="lightbox" id="lightbox" aria-hidden="true">
